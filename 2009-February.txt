@@ -1,0 +1,746 @@
+From oliv at gensys-net.eu  Mon Feb  9 18:58:16 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 17:58:16 +0000
+Subject: [Ciws-help] commercial support of Cooperation-iws
+Message-ID: <49906EB8.9000606@gensys-net.eu>
+
+does anybody have Openmeeting or Cooperation-iws working in real live?.
+The question its because i need to find a Isabel videomeeting option 
+with open source based, but with commercial support.
+Olivier, is it possible to get commercial support of Cooperation-iws 
+with openmeeting-irc?.
+
+
+From oliv at gensys-net.eu  Mon Feb  9 18:59:06 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 17:59:06 +0000
+Subject: [Ciws-help] commercial support of Cooperation-iws
+In-Reply-To: <49906EB8.9000606@gensys-net.eu>
+References: <49906EB8.9000606@gensys-net.eu>
+Message-ID: <49906EEA.6060807@gensys-net.eu>
+
+Olivier wrote:
+> does anybody have Openmeeting or Cooperation-iws working in real live?.
+> The question its because i need to find a Isabel videomeeting option 
+> with open source based, but with commercial support.
+> Olivier, is it possible to get commercial support of Cooperation-iws 
+> with openmeeting-irc?.
+> _______________________________________________
+> Ciws-help mailing list
+> Ciws-help at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/ciws-help
+>
+>   
+?Hi,
+
+Commercial support is planned but is not available still,
+
+Regards,
+
+Olivier
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:00:32 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:00:32 +0000
+Subject: [Ciws-help] Cooperation-iws
+Message-ID: <49906F40.3040500@gensys-net.eu>
+
+?Hello,
+
+I hope you might a minute to answer a couple of questions.
+
+I saw your post on the OpenMeetings forum.
+
+I am trying to figure out if your newest Cooperation-iws Live CD server 
+would be good for me and my project.
+
+I've had a good look at your website and I'm a little confused.
+
+I'm a bit of a newb and don't have too much experience setting up 
+servers and such.
+
+I'm currently looking for a live- CD system that will allow me to set up 
+a web server and run OpenMeetings.
+
+Will your system do this?
+
+Who is your system aimed at?
+
+Could you take a minute to explain what a person might use your system for?
+
+Thanks in advance for any information.
+
+Best
+
+
+Joe
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:01:21 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:01:21 +0000
+Subject: [Ciws-help] Cooperation-iws
+In-Reply-To: <49906F40.3040500@gensys-net.eu>
+References: <49906F40.3040500@gensys-net.eu>
+Message-ID: <49906F71.8020104@gensys-net.eu>
+
+?Hello Joe,
+
+A cooperation-iws server is "ready made " server contained on a live CD. 
+You just need to boot the iso cd to have a fully functionnal server.
+
+If you want to keep changes made during the session you need to install 
+the Live CD to USB media with the installer that is on the desktop of 
+the Live CD.
+
+To have a fully functional openmeetings server either you download the 
+eLearning Standalone edition which is a package with eLearning Portal 
+and mail server,
+
+or you download the communication server from the intranet suite which 
+contains only open meetings with an IRC server. You might download as 
+well the administration server of the intranet suite if you want to 
+monitor the open meetings server.
+
+So to answer your question, I think Cooperation-iws fits your needs.
+
+My system is aimed at different audience: personal intranet, association 
+intranet, school intranet, or small company intranet.
+
+My system is dedicated to people that want to use online tools but 
+without administration, security and privacy concerns, as the system fit 
+on usb key, is live technology with less administration and is not 
+necessary connected to the Internet.
+
+I hope I have answered to your question, if not feel free to contact me 
+again,
+
+Regards,
+Oliv
+
+Olivier wrote:
+> Hello,
+>
+> I hope you might a minute to answer a couple of questions.
+>
+> I saw your post on the OpenMeetings forum.
+>
+> I am trying to figure out if your newest Cooperation-iws Live CD server 
+> would be good for me and my project.
+>
+> I've had a good look at your website and I'm a little confused.
+>
+> I'm a bit of a newb and don't have too much experience setting up 
+> servers and such.
+>
+> I'm currently looking for a live- CD system that will allow me to set up 
+> a web server and run OpenMeetings.
+>
+> Will your system do this?
+>
+> Who is your system aimed at?
+>
+> Could you take a minute to explain what a person might use your system for?
+>
+> Thanks in advance for any information.
+>
+> Best
+>
+>
+> Joe
+> _______________________________________________
+> Ciws-help mailing list
+> Ciws-help at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/ciws-help
+>   
+
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:01:55 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:01:55 +0000
+Subject: [Ciws-help] Cooperation-iws
+In-Reply-To: <49906F71.8020104@gensys-net.eu>
+References: <49906F40.3040500@gensys-net.eu> <49906F71.8020104@gensys-net.eu>
+Message-ID: <49906F93.6020507@gensys-net.eu>
+
+?Olivier,
+
+Thanks for your reply.
+
+I'm interested in using your program as a web-server so that I am able 
+to conduct OpenMeetings over the web.
+
+Is this possible or is using it over an intranet the only option?
+
+Also, I'm not entirely sure by what you mean by 'intranet'?
+
+Does this mean that your Live-CD / USB is designed to run on large 
+networked intranets in say a company or a university?
+
+Thanks for any advice.
+
+Also, just to let you know, I'm having terrible trouble downloading the 
+program.
+
+I have an extremely fast connection here in Taiwan but for some strange 
+reason the download keeps timing out at some point and I'm left with 
+only a fraction of the file.
+
+I'm now using a 'download' manager to try and resume it if it times out 
+again.
+
+Please let me know if you move your programs to source-forge or another 
+similar site.
+
+Thanks again,
+
+Olivier wrote:
+> Hello Joe,
+>
+> A cooperation-iws server is "ready made " server contained on a live CD. 
+> You just need to boot the iso cd to have a fully functionnal server.
+>
+> If you want to keep changes made during the session you need to install 
+> the Live CD to USB media with the installer that is on the desktop of 
+> the Live CD.
+>
+> To have a fully functional openmeetings server either you download the 
+> eLearning Standalone edition which is a package with eLearning Portal 
+> and mail server,
+>
+> or you download the communication server from the intranet suite which 
+> contains only open meetings with an IRC server. You might download as 
+> well the administration server of the intranet suite if you want to 
+> monitor the open meetings server.
+>
+> So to answer your question, I think Cooperation-iws fits your needs.
+>
+> My system is aimed at different audience: personal intranet, association 
+> intranet, school intranet, or small company intranet.
+>
+> My system is dedicated to people that want to use online tools but 
+> without administration, security and privacy concerns, as the system fit 
+> on usb key, is live technology with less administration and is not 
+> necessary connected to the Internet.
+>
+> I hope I have answered to your question, if not feel free to contact me 
+> again,
+>
+> Regards,
+> Oliv
+>
+> Olivier wrote:
+>   
+>> Hello,
+>>
+>> I hope you might a minute to answer a couple of questions.
+>>
+>> I saw your post on the OpenMeetings forum.
+>>
+>> I am trying to figure out if your newest Cooperation-iws Live CD server 
+>> would be good for me and my project.
+>>
+>> I've had a good look at your website and I'm a little confused.
+>>
+>> I'm a bit of a newb and don't have too much experience setting up 
+>> servers and such.
+>>
+>> I'm currently looking for a live- CD system that will allow me to set up 
+>> a web server and run OpenMeetings.
+>>
+>> Will your system do this?
+>>
+>> Who is your system aimed at?
+>>
+>> Could you take a minute to explain what a person might use your system for?
+>>
+>> Thanks in advance for any information.
+>>
+>> Best
+>>
+>>
+>> Joe
+>> _______________________________________________
+>> Ciws-help mailing list
+>> Ciws-help at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/ciws-help
+>>   
+>>     
+>
+> _______________________________________________
+> Ciws-help mailing list
+> Ciws-help at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/ciws-help
+>   
+
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:02:27 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:02:27 +0000
+Subject: [Ciws-help] Cooperation-iws
+In-Reply-To: <49906F93.6020507@gensys-net.eu>
+References: <49906F40.3040500@gensys-net.eu> <49906F71.8020104@gensys-net.eu>
+	<49906F93.6020507@gensys-net.eu>
+Message-ID: <49906FB3.6010009@gensys-net.eu>
+
+?Hello Joe,
+
+Let's say that I mean Intranet by private Internet. So intranet is any 
+LAN you could find. But basically the technology is the same as Internet.
+
+As a Cooperation-iws server has much open ports than a normal web 
+server, I advise you not to connect the Cooperation-iws server directly 
+to Internet but rather to make a port forwarding from a gateway (For 
+Openmeetings the port are those of the Red server).
+
+For the download problems, I am sorry, but the actual hosting provider 
+is based in France and this is the only one who accept hosting so large 
+number of big files (Source forge doesn't accept) for free.
+
+If you know free hosting provider in Taiwan that accept to host 12GB of 
+files, let me know and I would upload the files.
+
+Thanks for your interest in Cooperation-iws
+
+Regards,
+
+Oliv
+
+Olivier wrote:
+> Olivier,
+>
+> Thanks for your reply.
+>
+> I'm interested in using your program as a web-server so that I am able 
+> to conduct OpenMeetings over the web.
+>
+> Is this possible or is using it over an intranet the only option?
+>
+> Also, I'm not entirely sure by what you mean by 'intranet'?
+>
+> Does this mean that your Live-CD / USB is designed to run on large 
+> networked intranets in say a company or a university?
+>
+> Thanks for any advice.
+>
+> Also, just to let you know, I'm having terrible trouble downloading the 
+> program.
+>
+> I have an extremely fast connection here in Taiwan but for some strange 
+> reason the download keeps timing out at some point and I'm left with 
+> only a fraction of the file.
+>
+> I'm now using a 'download' manager to try and resume it if it times out 
+> again.
+>
+> Please let me know if you move your programs to source-forge or another 
+> similar site.
+>
+> Thanks again,
+>
+> Olivier wrote:
+>   
+>> Hello Joe,
+>>
+>> A cooperation-iws server is "ready made " server contained on a live CD. 
+>> You just need to boot the iso cd to have a fully functionnal server.
+>>
+>> If you want to keep changes made during the session you need to install 
+>> the Live CD to USB media with the installer that is on the desktop of 
+>> the Live CD.
+>>
+>> To have a fully functional openmeetings server either you download the 
+>> eLearning Standalone edition which is a package with eLearning Portal 
+>> and mail server,
+>>
+>> or you download the communication server from the intranet suite which 
+>> contains only open meetings with an IRC server. You might download as 
+>> well the administration server of the intranet suite if you want to 
+>> monitor the open meetings server.
+>>
+>> So to answer your question, I think Cooperation-iws fits your needs.
+>>
+>> My system is aimed at different audience: personal intranet, association 
+>> intranet, school intranet, or small company intranet.
+>>
+>> My system is dedicated to people that want to use online tools but 
+>> without administration, security and privacy concerns, as the system fit 
+>> on usb key, is live technology with less administration and is not 
+>> necessary connected to the Internet.
+>>
+>> I hope I have answered to your question, if not feel free to contact me 
+>> again,
+>>
+>> Regards,
+>> Oliv
+>>
+>> Olivier wrote:
+>>   
+>>     
+>>> Hello,
+>>>
+>>> I hope you might a minute to answer a couple of questions.
+>>>
+>>> I saw your post on the OpenMeetings forum.
+>>>
+>>> I am trying to figure out if your newest Cooperation-iws Live CD server 
+>>> would be good for me and my project.
+>>>
+>>> I've had a good look at your website and I'm a little confused.
+>>>
+>>> I'm a bit of a newb and don't have too much experience setting up 
+>>> servers and such.
+>>>
+>>> I'm currently looking for a live- CD system that will allow me to set up 
+>>> a web server and run OpenMeetings.
+>>>
+>>> Will your system do this?
+>>>
+>>> Who is your system aimed at?
+>>>
+>>> Could you take a minute to explain what a person might use your system for?
+>>>
+>>> Thanks in advance for any information.
+>>>
+>>> Best
+>>>
+>>>
+>>> Joe
+>>> _______________________________________________
+>>> Ciws-help mailing list
+>>> Ciws-help at lists.berlios.de
+>>> https://lists.berlios.de/mailman/listinfo/ciws-help
+>>>   
+>>>     
+>>>       
+>> _______________________________________________
+>> Ciws-help mailing list
+>> Ciws-help at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/ciws-help
+>>   
+>>     
+>
+> _______________________________________________
+> Ciws-help mailing list
+> Ciws-help at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/ciws-help
+>   
+
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:04:05 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:04:05 +0000
+Subject: [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+Message-ID: <49907015.3050706@gensys-net.eu>
+
+?Is it possible for me to take my phpbb / joomla web site (with 
+database), incoporate it with your code, and then have my web site 
+automatically pop-up automatically on boot-up with the dvd?
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:05:09 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:05:09 +0000
+Subject: [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+In-Reply-To: <49907015.3050706@gensys-net.eu>
+References: <49907015.3050706@gensys-net.eu>
+Message-ID: <49907055.8080206@gensys-net.eu>
+
+?Hi,
+
+With Community Live DVD it is not possible as they are already build. 
+But if if you want to do that you can install onto USB (Cheap Usb key of 
+4gb cost 9 ?) with persistent feature for server (see 
+http://www.cooperation-iws.eu/CMS/?page_id=44) and then add the 
+following line in /var/share/etc/rc.ciws:
+
+Code: Select all 
+<http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&t=9&sid=5f52a3a979a34f8d7ab9e547cd6997de#>
+    |firefox http://localhost/Your_Joomla_Path|
+
+
+
+This line will make firefox pop up at the beginning of the session at 
+the url http://localhost/Your_Joomla_Path.
+
+If you don't find http://localhost/Your_Joomla_Path, just let 
+http://localhost and this will open window in Cooperation-iws portal 
+where you will have access to all applications.
+
+The advantage of Live USB with persistent feature is that it works like 
+normal server and save all changes in your Joomla application.
+
+
+You must be sure to understand that Cooperation-iws wont work on Windows 
+but is rather a full Operating system that boot instead of Windows on 
+the Usb key.
+
+
+Regards,
+
+Olivier
+
+Olivier wrote:
+> Is it possible for me to take my phpbb / joomla web site (with 
+> database), incoporate it with your code, and then have my web site 
+> automatically pop-up automatically on boot-up with the dvd?
+> _______________________________________________
+> Ciws-help mailing list
+> Ciws-help at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/ciws-help
+>   
+
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:05:47 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:05:47 +0000
+Subject: [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+In-Reply-To: <49907055.8080206@gensys-net.eu>
+References: <49907015.3050706@gensys-net.eu> <49907055.8080206@gensys-net.eu>
+Message-ID: <4990707B.7050508@gensys-net.eu>
+
+?Okay, I did everything in your instructions. I was able to make the USB 
+boot drive. I booted up the USB drive and the operating system came up 
+fine. However, when I go edit the file, /var/share/etc/rc.ciws , it 
+won't let me save it. It seems that I can not make any changes to any of 
+the system files.
+
+Anything in the system folder I can not change. I can access and change 
+things on the USB drive, but not any of the system files. How is that 
+possible? Aren't the system files coming from the USB drive? It's very 
+strange.
+
+
+Olivier wrote:
+> Hi,
+>
+> With Community Live DVD it is not possible as they are already build. 
+> But if if you want to do that you can install onto USB (Cheap Usb key of 
+> 4gb cost 9 ?) with persistent feature for server (see 
+> http://www.cooperation-iws.eu/CMS/?page_id=44) and then add the 
+> following line in /var/share/etc/rc.ciws:
+>
+> Code: Select all 
+> <http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&t=9&sid=5f52a3a979a34f8d7ab9e547cd6997de#>
+>     |firefox http://localhost/Your_Joomla_Path|
+>
+>
+>
+> This line will make firefox pop up at the beginning of the session at 
+> the url http://localhost/Your_Joomla_Path.
+>
+> If you don't find http://localhost/Your_Joomla_Path, just let 
+> http://localhost and this will open window in Cooperation-iws portal 
+> where you will have access to all applications.
+>
+> The advantage of Live USB with persistent feature is that it works like 
+> normal server and save all changes in your Joomla application.
+>
+>
+> You must be sure to understand that Cooperation-iws wont work on Windows 
+> but is rather a full Operating system that boot instead of Windows on 
+> the Usb key.
+>
+>
+> Regards,
+>
+> Olivier
+>
+> Olivier wrote:
+>   
+>> Is it possible for me to take my phpbb / joomla web site (with 
+>> database), incoporate it with your code, and then have my web site 
+>> automatically pop-up automatically on boot-up with the dvd?
+>> _______________________________________________
+>> Ciws-help mailing list
+>> Ciws-help at lists.berlios.de
+>> https://lists.berlios.de/mailman/listinfo/ciws-help
+>>   
+>>     
+>
+> _______________________________________________
+> Ciws-help mailing list
+> Ciws-help at lists.berlios.de
+> https://lists.berlios.de/mailman/listinfo/ciws-help
+>   
+
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:12:17 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:12:17 +0000
+Subject: [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+In-Reply-To: <4990707B.7050508@gensys-net.eu>
+References: <49907015.3050706@gensys-net.eu> <49907055.8080206@gensys-net.eu>
+	<4990707B.7050508@gensys-net.eu>
+Message-ID: <49907201.2000900@gensys-net.eu>
+
+?hi,
+
+While making your Usb key you should have selected persistent mode with 
+ciws-rw partition for server. Then all the /var directory should be 
+writeable if you have the right permissions.
+
+To modify rc.ciws, you should be in super user mode using the sudo command:
+
+Code: Select all 
+<http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&t=9&sid=5f52a3a979a34f8d7ab9e547cd6997de#>
+    |sudo nano /var/share/etc/rc.ciws|
+
+
+
+default password for sudo is : cooperation
+
+Regards,
+
+Olivier
+
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:12:42 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:12:42 +0000
+Subject: [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+In-Reply-To: <49907201.2000900@gensys-net.eu>
+References: <49907015.3050706@gensys-net.eu>
+	<49907055.8080206@gensys-net.eu>	<4990707B.7050508@gensys-net.eu>
+	<49907201.2000900@gensys-net.eu>
+Message-ID: <4990721A.8020801@gensys-net.eu>
+
+?Thank you so much for the quick responses.
+
+Okay, I did everything you suggested. Right now my rc.ciws file is as 
+follows:
+
+firefox http://localhost
+rm /etc/rc0.d/*casper*
+rm /etc/rc6.d/*casper*
+
+However, when I reboot and the USB drive starts the operating system, 
+nothing pops up. It just boots up as it normally would. And I get the 
+following error:
+
+The program xfcc4-places-plugin closed unexpectedly
+
+Now, maybe that has nothing to do with firefox opening. But firefox 
+still doesn't open and nothing happens.
+
+Also, I have a question about permissions. Is there anyway I can change 
+the permissions (maybe login as root), so I can just copy files through 
+the file manager? Using sudo in the command line to do everything is 
+very time consuming. I understand the risk being logged in as root, but 
+I'm willing to take the risk. I would rather just be able to do 
+everything through file manager. 8-)
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:13:42 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:13:42 +0000
+Subject: [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+In-Reply-To: <4990721A.8020801@gensys-net.eu>
+References: <49907015.3050706@gensys-net.eu>	<49907055.8080206@gensys-net.eu>	<4990707B.7050508@gensys-net.eu>	<49907201.2000900@gensys-net.eu>
+	<4990721A.8020801@gensys-net.eu>
+Message-ID: <49907256.7040109@gensys-net.eu>
+
+?Hi,
+
+to start Files manager as root:
+
+Code: Select all 
+<http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&t=9&sid=5f52a3a979a34f8d7ab9e547cd6997de#>
+    |sudo thunar|
+
+
+
+to start graphical editor as root:
+
+Code: Select all 
+<http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&t=9&sid=5f52a3a979a34f8d7ab9e547cd6997de#>
+    |sudo mousepad|
+
+
+
+I am sorry for last solution, as I have tested it and it doesn't work 
+because you can't launch graphical applications from rc.local
+
+I have also test to add firefox to autostart in rc.ciws but this does 
+not work either as rc.ciws is called too late after the session startup.
+
+So the last solution you have is to remaster the Live CD and add the 
+following file ciws.desktop in /etc/skel/.config/autostart/ (create 
+directories if they do not exist)
+
+Code: Select all 
+<http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&t=9&sid=5f52a3a979a34f8d7ab9e547cd6997de#>
+    |[Desktop Entry]
+    Encoding=UTF-8
+    Version=0.9.4
+    Type=Application
+    Name=Cooperation-iws
+    Comment=
+    Exec=firefox http://localhost
+    StartupNotify=false
+    Terminal=false
+    Hidden=false|
+
+
+
+and do not forget to make the following command after:
+
+Code: Select all 
+<http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&t=9&sid=5f52a3a979a34f8d7ab9e547cd6997de#>
+    |sudo  chmod -R 755 /etc/skel/.config/|
+
+
+
+This will be fixed in 0.9 release as /home directory will also be 
+persistent.
+
+Regards,
+
+Olivier
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:14:33 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:14:33 +0000
+Subject: [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+In-Reply-To: <49907256.7040109@gensys-net.eu>
+References: <49907015.3050706@gensys-net.eu>	<49907055.8080206@gensys-net.eu>	<4990707B.7050508@gensys-net.eu>	<49907201.2000900@gensys-net.eu>	<4990721A.8020801@gensys-net.eu>
+	<49907256.7040109@gensys-net.eu>
+Message-ID: <49907289.5000106@gensys-net.eu>
+
+?
+
+    So the last solution you have is to remaster the Live CD and add the
+    following file ciws.desktop in /etc/skel/.config/autostart/ (create
+    directories if they do not exist)
+
+
+
+Do you have any resource or instructions on how I can do this?
+
+
+From oliv at gensys-net.eu  Mon Feb  9 19:15:07 2009
+From: oliv at gensys-net.eu (Olivier)
+Date: Mon, 09 Feb 2009 18:15:07 +0000
+Subject: [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+In-Reply-To: <49907289.5000106@gensys-net.eu>
+References: <49907015.3050706@gensys-net.eu>	<49907055.8080206@gensys-net.eu>	<4990707B.7050508@gensys-net.eu>	<49907201.2000900@gensys-net.eu>	<4990721A.8020801@gensys-net.eu>	<49907256.7040109@gensys-net.eu>
+	<49907289.5000106@gensys-net.eu>
+Message-ID: <499072AB.3080507@gensys-net.eu>
+
+?Hi,
+
+here's a tutorial: https://help.ubuntu.com/community/LiveCDCustomization
+
+Regards,
+
+Olivier
+
+

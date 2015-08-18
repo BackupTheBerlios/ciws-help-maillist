@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/ciws-help/2009-February/index.html" >
+   <LINK REL="made" HREF="mailto:ciws-help%40lists.berlios.de?Subject=Re%3A%20%5BCiws-help%5D%20Make%20a%20Web%20Site%20Auto-boot%20on%20Cooperation-IWS&In-Reply-To=%3C49907256.7040109%40gensys-net.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000011.html">
+   <LINK REL="Next"  HREF="000013.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS</H1>
+    <B>Olivier</B> 
+    <A HREF="mailto:ciws-help%40lists.berlios.de?Subject=Re%3A%20%5BCiws-help%5D%20Make%20a%20Web%20Site%20Auto-boot%20on%20Cooperation-IWS&In-Reply-To=%3C49907256.7040109%40gensys-net.eu%3E"
+       TITLE="[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS">oliv at gensys-net.eu
+       </A><BR>
+    <I>Mon Feb  9 19:13:42 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000011.html">[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+</A></li>
+        <LI>Next message: <A HREF="000013.html">[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#12">[ date ]</a>
+              <a href="thread.html#12">[ thread ]</a>
+              <a href="subject.html#12">[ subject ]</a>
+              <a href="author.html#12">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&#65279;Hi,
+
+to start Files manager as root:
+
+Code: Select all 
+&lt;<A HREF="http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#">http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#</A>&gt;
+    |sudo thunar|
+
+
+
+to start graphical editor as root:
+
+Code: Select all 
+&lt;<A HREF="http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#">http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#</A>&gt;
+    |sudo mousepad|
+
+
+
+I am sorry for last solution, as I have tested it and it doesn't work 
+because you can't launch graphical applications from rc.local
+
+I have also test to add firefox to autostart in rc.ciws but this does 
+not work either as rc.ciws is called too late after the session startup.
+
+So the last solution you have is to remaster the Live CD and add the 
+following file ciws.desktop in /etc/skel/.config/autostart/ (create 
+directories if they do not exist)
+
+Code: Select all 
+&lt;<A HREF="http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#">http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#</A>&gt;
+    |[Desktop Entry]
+    Encoding=UTF-8
+    Version=0.9.4
+    Type=Application
+    Name=Cooperation-iws
+    Comment=
+    Exec=firefox <A HREF="http://localhost">http://localhost</A>
+    StartupNotify=false
+    Terminal=false
+    Hidden=false|
+
+
+
+and do not forget to make the following command after:
+
+Code: Select all 
+&lt;<A HREF="http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#">http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#</A>&gt;
+    |sudo  chmod -R 755 /etc/skel/.config/|
+
+
+
+This will be fixed in 0.9 release as /home directory will also be 
+persistent.
+
+Regards,
+
+Olivier
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000011.html">[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+</A></li>
+	<LI>Next message: <A HREF="000013.html">[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#12">[ date ]</a>
+              <a href="thread.html#12">[ thread ]</a>
+              <a href="subject.html#12">[ subject ]</a>
+              <a href="author.html#12">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/ciws-help">More information about the Ciws-help
+mailing list</a><br>
+</body></html>

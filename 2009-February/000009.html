@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/ciws-help/2009-February/index.html" >
+   <LINK REL="made" HREF="mailto:ciws-help%40lists.berlios.de?Subject=Re%3A%20%5BCiws-help%5D%20Make%20a%20Web%20Site%20Auto-boot%20on%20Cooperation-IWS&In-Reply-To=%3C4990707B.7050508%40gensys-net.eu%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000008.html">
+   <LINK REL="Next"  HREF="000010.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS</H1>
+    <B>Olivier</B> 
+    <A HREF="mailto:ciws-help%40lists.berlios.de?Subject=Re%3A%20%5BCiws-help%5D%20Make%20a%20Web%20Site%20Auto-boot%20on%20Cooperation-IWS&In-Reply-To=%3C4990707B.7050508%40gensys-net.eu%3E"
+       TITLE="[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS">oliv at gensys-net.eu
+       </A><BR>
+    <I>Mon Feb  9 19:05:47 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000008.html">[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+</A></li>
+        <LI>Next message: <A HREF="000010.html">[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#9">[ date ]</a>
+              <a href="thread.html#9">[ thread ]</a>
+              <a href="subject.html#9">[ subject ]</a>
+              <a href="author.html#9">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&#65279;Okay, I did everything in your instructions. I was able to make the USB 
+boot drive. I booted up the USB drive and the operating system came up 
+fine. However, when I go edit the file, /var/share/etc/rc.ciws , it 
+won't let me save it. It seems that I can not make any changes to any of 
+the system files.
+
+Anything in the system folder I can not change. I can access and change 
+things on the USB drive, but not any of the system files. How is that 
+possible? Aren't the system files coming from the USB drive? It's very 
+strange.
+
+
+Olivier wrote:
+&gt;<i> Hi,
+</I>&gt;<i>
+</I>&gt;<i> With Community Live DVD it is not possible as they are already build. 
+</I>&gt;<i> But if if you want to do that you can install onto USB (Cheap Usb key of 
+</I>&gt;<i> 4gb cost 9 &#8364;) with persistent feature for server (see 
+</I>&gt;<i> <A HREF="http://www.cooperation-iws.eu/CMS/?page_id=44">http://www.cooperation-iws.eu/CMS/?page_id=44</A>) and then add the 
+</I>&gt;<i> following line in /var/share/etc/rc.ciws:
+</I>&gt;<i>
+</I>&gt;<i> Code: Select all 
+</I>&gt;<i> &lt;<A HREF="http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#">http://www.cooperation-iws.eu/forum/viewtopic.php?f=3&amp;t=9&amp;sid=5f52a3a979a34f8d7ab9e547cd6997de#</A>&gt;
+</I>&gt;<i>     |firefox <A HREF="http://localhost/Your_Joomla_Path|">http://localhost/Your_Joomla_Path|</A>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> This line will make firefox pop up at the beginning of the session at 
+</I>&gt;<i> the url <A HREF="http://localhost/Your_Joomla_Path.">http://localhost/Your_Joomla_Path.</A>
+</I>&gt;<i>
+</I>&gt;<i> If you don't find <A HREF="http://localhost/Your_Joomla_Path,">http://localhost/Your_Joomla_Path,</A> just let 
+</I>&gt;<i> <A HREF="http://localhost">http://localhost</A> and this will open window in Cooperation-iws portal 
+</I>&gt;<i> where you will have access to all applications.
+</I>&gt;<i>
+</I>&gt;<i> The advantage of Live USB with persistent feature is that it works like 
+</I>&gt;<i> normal server and save all changes in your Joomla application.
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> You must be sure to understand that Cooperation-iws wont work on Windows 
+</I>&gt;<i> but is rather a full Operating system that boot instead of Windows on 
+</I>&gt;<i> the Usb key.
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i> Regards,
+</I>&gt;<i>
+</I>&gt;<i> Olivier
+</I>&gt;<i>
+</I>&gt;<i> Olivier wrote:
+</I>&gt;<i>   
+</I>&gt;&gt;<i> Is it possible for me to take my phpbb / joomla web site (with 
+</I>&gt;&gt;<i> database), incoporate it with your code, and then have my web site 
+</I>&gt;&gt;<i> automatically pop-up automatically on boot-up with the dvd?
+</I>&gt;&gt;<i> _______________________________________________
+</I>&gt;&gt;<i> Ciws-help mailing list
+</I>&gt;&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/ciws-help">Ciws-help at lists.berlios.de</A>
+</I>&gt;&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/ciws-help">https://lists.berlios.de/mailman/listinfo/ciws-help</A>
+</I>&gt;&gt;<i>   
+</I>&gt;&gt;<i>     
+</I>&gt;<i>
+</I>&gt;<i> _______________________________________________
+</I>&gt;<i> Ciws-help mailing list
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/ciws-help">Ciws-help at lists.berlios.de</A>
+</I>&gt;<i> <A HREF="https://lists.berlios.de/mailman/listinfo/ciws-help">https://lists.berlios.de/mailman/listinfo/ciws-help</A>
+</I>&gt;<i>   
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000008.html">[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+</A></li>
+	<LI>Next message: <A HREF="000010.html">[Ciws-help] Make a Web Site Auto-boot on Cooperation-IWS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#9">[ date ]</a>
+              <a href="thread.html#9">[ thread ]</a>
+              <a href="subject.html#9">[ subject ]</a>
+              <a href="author.html#9">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/ciws-help">More information about the Ciws-help
+mailing list</a><br>
+</body></html>
